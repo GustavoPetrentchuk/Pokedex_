@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#1363DF, #47B5FF, #DFF6FF);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.pokedex {
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 5%;
+    bottom: 1%;
+    width: 48%;
+}
+
+.pokemon {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 5%;
+    top: 35%;
+    width: 8%;
+}
