@@ -5,11 +5,26 @@
     <title>Pokedex</title>
     <script defer src="Js/script.js"></script>
     <link rel="stylesheet" href="Css/style.css">
+    <link rel="icon" href="./Imgs/icon-32x32.png">
 </head>
 <body>
     <main>
         <img class="pokedex" src="./Imgs/pokedex.png" alt="imagem de uma pokedex">
-        <img class="pokemon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/122.gif" alt="figura do pokemon selecionado">
+        <img class="pokemon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" alt="figura do pokemon selecionado">
+
+        <h1 class="info_pokemon">
+            <span class="id_pokemon">1</span> -
+         <span class="nome_pokemon">Bulbasaur</span>
+        </h1>
+
+        <form class="form">
+            <input type="search" class="input_search" placeholder="Nome ou Id" required>
+        </form>
+
+        <div class="buttons">
+            <button class="btn-prev">&lt;</button>
+            <button class="btn-next">&gt;</button>
+        </div>
     </main>
 </body>
 </html>
