@@ -34,7 +34,7 @@ main {
     max-width: 800px;
 }
 
-.pokemon {
+.pokemonGif {
     position: absolute;
     bottom: 55%;
     left: 36%;
